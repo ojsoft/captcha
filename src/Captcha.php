@@ -363,7 +363,7 @@ class Captcha
      */
     protected function text(): void
     {
-        $marginTop = $this->image->height() / $this->length;
+        $marginTop = $this->image->height() / $this->length / 2;
 
         $text = $this->text;
         if (is_string($text)) {
