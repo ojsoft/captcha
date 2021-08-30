@@ -402,7 +402,7 @@ class Captcha
      */
     protected function fontSize(): int
     {
-        return rand($this->image->height() - 10, $this->image->height());
+        return rand($this->image->height() - 10, $this->image->height())-10;
     }
 
     /**
